@@ -73,7 +73,7 @@
 
         <section class="poster">
             <h2>活动海报</h2>
-            <img src="https://example.com/path/to/your/poster.jpg" alt="活动海报">
+            <img src="https://raw.githubusercontent.com/1419436163/test/main/2.jpg" alt="活动海报">
         </section>
 
         <section class="payment">
