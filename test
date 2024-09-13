@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>艺术作品售卖活动</title>
+    <style>
+        /* 样式保持不变 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+        }
+        .artwork {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .artwork img {
+            max-width: 100%;
+            height: auto;
+        }
+        .poster {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .poster img {
+            max-width: 100%;
+            height: auto;
+        }
+        .payment {
+            text-align: center;
+        }
+        .payment img {
+            max-width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>艺术作品售卖活动</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="artwork">
+            <h2>作品展示</h2>
+            <img src="https://example.com/path/to/your/artwork.jpg" alt="艺术作品1">
+            <h3>作品介绍</h3>
+            <p>这是一幅充满活力的抽象画作。艺术家通过大胆的笔触和鲜艳的色彩，展现了生命的热情与活力。这幅作品将为您的空间增添一抹亮色，成为视觉焦点。</p>
+        </section>
+
+        <section class="poster">
+            <h2>活动海报</h2>
+            <img src="https://example.com/path/to/your/poster.jpg" alt="活动海报">
+        </section>
+
+        <section class="payment">
+            <h2>购买方式</h2>
+            <p>扫描下方二维码完成支付</p>
+            <img src="https://example.com/path/to/your/qr-code.png" alt="支付二维码">
+        </section>
+    </div>
+</body>
+</html>
